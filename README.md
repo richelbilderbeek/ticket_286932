@@ -4,18 +4,18 @@ Ticket 286932
 
 ## Results
 
- * <first_consensus_tree/first_consensus_tree.tree>: the first MCC consensus tree
+ * [the first MCC consensus tree](first_consensus_tree/first_consensus_tree.tree)
+ * NEW: [the second MCC consensus tree](second_mcc.tree)
 
- * NEW: <second_mcc.tree>: the second MCC consensus tree
+## Notes
 
-
-## First dataset
+### First MCC consensus tree
 
 MCC consensus tree, using the last 4 trees:
 
 ![](first_consensus_tree.png)
 
-## Second dataset
+### Second MCC consensus tree
 
 ```
 [richel@s201 NGBW-JOB-BEAST_TG-444E59FE411D45A0949144F50A50E30C]$ tail *.trees | grep -o "STATE_........."
