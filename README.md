@@ -24,5 +24,23 @@ STATE_5343000 [
 STATE_5344000 [
 ```
 
+> Finding out the last 10 states
+
 ![](second_setup.png)
+
+> The setup
+
+![](second_mcc_tree_generation.png)
+
+> Generating the MCC consensus tree takes 25 minutes
+
+Start FigTree on Linux:
+
+```
+java -jar ~/Documents/figtree/lib/figtree.jar second_mcc.tree 
+```
+
+![](second_mcc_tree_error.png)
+
+> The error message
 
